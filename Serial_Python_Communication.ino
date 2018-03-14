@@ -33,10 +33,9 @@ void loop() {
     lcd.begin(16,2);
     lcd.clear();
     lcd.home();
-    Serial.println("");
-    Serial.println("TL1");
-    delay(100);  //wait some time for the data to fully be read
-    Serial.println("TL2");
+    //Serial.println("");
+    //Serial.println("TL1");
+    //Serial.println("TL2");
     while (Serial.available() > 0) {
       char c = Serial.read();
       lcd.write(c);
