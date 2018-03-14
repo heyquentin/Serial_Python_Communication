@@ -1,5 +1,4 @@
 #include <Wire.h>
-#include <LCD.h>
 #include <LiquidCrystal_I2C.h> // F Malpartida's NewLiquidCrystal library
 #define I2C_ADDR 0x3F // Define I2C Address for controller
 #define En_pin 2
