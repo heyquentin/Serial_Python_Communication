@@ -23,8 +23,7 @@ lcd.setBacklight(HIGH);
 lcd.begin(16, 2);
 lcd.clear();
 lcd.home();
- 
-//Serial.begin(115200);
+
 Serial.begin(9600);
 
 }
