@@ -41,7 +41,6 @@ void loop() {
       char c = Serial.read();
       lcd.write(c);
       Serial.print(c);
-      delay(2);  //wait some time for the data to fully be read
     }
   }
 }
