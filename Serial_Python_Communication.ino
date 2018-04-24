@@ -23,7 +23,7 @@ lcd.begin(16, 2);
 lcd.clear();
 lcd.home();
 
-Serial.begin(9600);
+Serial.begin(115200);
 
 }
  
